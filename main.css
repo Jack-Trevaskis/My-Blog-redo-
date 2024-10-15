@@ -147,25 +147,34 @@ table {
 
 @media (max-width: 450px) {
     
-    .header {
-        
-        
-        position: absolute;
-        top: 0px;
-        width: 100vw;
+   .waterTowerGap {
 
-    }
+    background-position: center;
+    height: 100vh;
+   }
 
-    .footer {
+   .changeBackground {
 
-        background-color: rgb(86, 86, 86);
-        width: 100vw;
-        height: 10vh;
-        position: absolute;
-        bottom: 0px;
+    height:50px;
+    width: 100px;
+    left: 40vw;
+    
+    
+   }
+
+   .logo {
+
+    width: 0px;
+    height: 0px;
+
+   }
 
 
-    }
+.dropButton {
 
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
 
   }
