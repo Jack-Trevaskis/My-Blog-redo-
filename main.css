@@ -1,0 +1,171 @@
+td {
+
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 20%;
+    border-width: 5px;
+    border-color: rgb(86, 86, 86);
+    border-style: solid;
+    
+}
+
+table {
+
+    margin: 0 auto;
+    border-spacing: 30px;
+}
+
+.powderSki {
+
+    background-image: url("IMG/powderSki.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.waterTowerGap {
+
+    background-image: url("IMG/waterTowerGap.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: top;
+    margin: 0;
+  
+    
+
+}
+
+.jimi {
+
+    background-image: url("IMG/jimi.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.header {
+
+    background-color: rgb(86, 86, 86);
+    text-align: center;
+    height: 25vh;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+     
+}
+
+.logo {
+
+    width: 120px;
+    height: 120px;
+    background-image: url("IMG/skiLogo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    bottom: 150px;
+    left: 50px;
+
+
+}
+
+
+.jackTrevaskis {
+
+    color: whitesmoke;
+    font-size: 80px;
+    margin-bottom: 0x;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    position: relative;
+    bottom: 40px;
+   
+   
+    
+
+
+}
+
+.dropButton {
+
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 120px;
+    position: relative;
+    bottom: 60px;
+}
+
+.dropUp {
+
+    height: 0px;
+    width: 0px;
+    font-size: 0px;
+    position: relative;
+    bottom: 1000px;
+    
+}
+
+.dropDown {
+
+   color: black;
+   font-size: 15px;
+   position: relative;
+   top: 30vh;
+   text-align: center;
+
+
+}
+
+.footer {
+
+    background-color: rgb(86, 86, 86);
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 0px;
+}
+
+.changeBackground {
+
+    height:50px;
+    width: 100px;
+    position: relative;
+    left: 90vw;
+    top: 10px;
+
+}
+
+@media (max-width: 450px) {
+    
+    .header {
+        
+        
+        position: absolute;
+        top: 0px;
+        width: 100vw;
+
+    }
+
+    .footer {
+
+        background-color: rgb(86, 86, 86);
+        width: 100vw;
+        height: 10vh;
+        position: absolute;
+        bottom: 0px;
+
+
+    }
+
+
+  }
